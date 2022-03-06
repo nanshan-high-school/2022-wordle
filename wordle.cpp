@@ -72,7 +72,7 @@ int main() {
         "siege",
         "truss",
         "boost",
-        "rebus"
+        "rebus",
         // TODO: 請協助 PR 以擴充題庫
     };
 
