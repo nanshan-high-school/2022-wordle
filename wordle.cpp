@@ -11,6 +11,9 @@ int main() {
         "pizza",
         "never",
         "gonna",
+        "waltz",
+        "xerox",
+        "xylem",
         // TODO: 請協助 PR 以擴充題庫
     };
 
