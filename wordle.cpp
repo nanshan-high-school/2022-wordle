@@ -102,40 +102,41 @@ int main() {
         cin >> input;
 
         if(answer.size() != input.size()) {
-          printf("Input length must be %d long\n", (int)answer.size());
-          continue;
+            printf("Input length must be %d long\n", (int)answer.size());
+            continue;
         }
 
         if(input == "") {
-          printf("Say Something\n");
-          continue;
+            printf("Say Something\n");
+            continue;
         }
 
         for(int i = 0; i < input.size(); i++) {
-          if(answer[i] == input[i]) {
-            printf("\x1b[32m%c", input[i]);  //green
-            } else {
-            if(indexOf(input[i], answer) != -1) {
-              printf("\x1b[33m%c", input[i]);  // yellow
-            } else {
-              printf("\x1b[37m%c", input[i]);  // white
+            if(answer[i] == input[i]) {
+              printf("\x1b[32m%c", input[i]);  //green
+              } else {
+                  if(indexOf(input[i], answer) != -1) {
+                      printf("\x1b[33m%c", input[i]);  // yellow
+                  } else {
+                      printf("\x1b[37m%c", input[i]);  // white
+                  }
             }
         }
-    }
 
-    if(answer == input) {
-      printf("\n\x1b[1;31;42mYou Win!!!\n\x1b[0m");  // red foreground with green background and reset the color to default
-      break;
+        if(answer == input) {
+            printf("\n\x1b[1;31;42mYou Win!!!\n\x1b[0m");  // red foreground with green background and reset the color to default
+            break;
+        }
     }
 }
 
 int indexOf(char target, string src) {
-  int index = -1;
-  for(int i = 0; i < src.size(); i++) {
-    if(src[i] == target) {
-      index = i;
+    int index = -1;
+    for(int i = 0; i < src.size(); i++) {
+      if(src[i] == target) {
+        index = i;
+      }
     }
-  }
 
-  return index;
+    return index;
 }
