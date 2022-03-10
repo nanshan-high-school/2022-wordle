@@ -25,7 +25,6 @@ int main() {
         "horse",
         "jelly",
         "hotel",
-        "",
         // TODO: 請協助 PR 以擴充題庫
     };
 
