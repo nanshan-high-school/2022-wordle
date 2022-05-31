@@ -18,7 +18,26 @@ int main() {
         "small",
         "short",
         "ahhhh",
-        "hello"
+        "hello",
+        "happy",
+        "spoon",
+        "green",
+        "arrow",
+        "ankle",
+        "honey",
+        "skate",
+        "skirt",
+        "horse",
+        "jelly",
+        "hotel",
+        "noone",
+        "horse",
+        "array",
+        "house",
+        "viros",
+        "drunk",
+        "angle",
+        "scarf",
         // TODO: 請協助 PR 以擴充題庫
     };
 
