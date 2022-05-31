@@ -14,6 +14,17 @@ int main() {
         "waltz",
         "xerox",
         "xylem",
+        "happy",
+        "spoon",
+        "green",
+        "arrow",
+        "ankle",
+        "honey",
+        "skate",
+        "skirt",
+        "horse",
+        "jelly",
+        "hotel",
         "noone",
         // TODO: 請協助 PR 以擴充題庫
     };
