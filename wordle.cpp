@@ -26,6 +26,10 @@ int main() {
         "jelly",
         "hotel",
         "noone",
+        "viros",
+        "drunk",
+        "angle",
+        "scarf",
         // TODO: 請協助 PR 以擴充題庫
     };
 
