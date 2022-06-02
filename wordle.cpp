@@ -14,6 +14,12 @@ int main() {
         "waltz",
         "xerox",
         "xylem",
+        "mommy";
+        "daddy";
+        "uncle";
+        "their";
+        "paper";
+        "skate";
         // TODO: 請協助 PR 以擴充題庫
     };
 
